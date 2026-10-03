@@ -1,0 +1,6 @@
+---
+title: "Hello, World"
+date: 2026-10-03
+---
+
+Hello, world! This is the first post on this blog.
