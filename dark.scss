@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+
+// Dark palette, layered on top of theme.scss
+$body-bg: #16181b;
+$body-color: #e3e0d9;
+$primary: #7fbfd6;
+$pm-muted: #a19e97;
+$pm-rule: #2b2e33;
+$code-bg: #23262b;
+$code-color: #f0b48f;
+$code-block-bg: #1e2125;
+
+$text-muted: $pm-muted;
+$border-color: $pm-rule;
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$navbar-hl: $primary;
+$footer-bg: $body-bg;
+$footer-fg: $pm-muted;

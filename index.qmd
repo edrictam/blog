@@ -1,5 +1,10 @@
 ---
+title: "Posterior Musings"
+subtitle: "Updating beliefs, one post at a time."
+body-classes: home
 listing:
   contents: posts
   sort: "date desc"
+  date-format: "MMMM D, YYYY"
+  fields: [date, title, subtitle, description, categories]
 ---
