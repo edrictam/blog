@@ -56,9 +56,14 @@ $footer-fg: $pm-muted !default;
     letter-spacing: -0.01em;
   }
 
-  // Keep the dark-mode toggle beside search rather than the title
+  // Keep the dark-mode toggle just after search (Quarto orders search 4 on
+  // phones and 999 on desktop) rather than beside the title
   .quarto-navbar-tools {
     order: 5;
+
+    @include media-breakpoint-up(lg) {
+      order: 1000;
+    }
   }
 }
 
@@ -167,6 +172,39 @@ $footer-fg: $pm-muted !default;
   .listing-description,
   .listing-description a {
     color: $pm-muted;
+  }
+}
+
+// About page: a little wider than posts, name sized to fit under the photo
+@include media-breakpoint-up(lg) {
+  #quarto-content div.quarto-about-trestles {
+    grid-column: body-start-outset / body-end-outset;
+  }
+}
+
+.quarto-about-trestles #title-block-header {
+  margin-top: 1.25rem;
+
+  .title {
+    font-size: 1.85rem;
+    text-wrap: balance;
+  }
+}
+
+// About page: links as quiet pill buttons
+#quarto-content .about-links .about-link {
+  padding: 0.2rem 0.75rem;
+  border: 1px solid $pm-rule;
+  border-radius: 999px;
+  color: $body-color;
+  font-family: $font-family-sans-serif;
+  font-size: 0.78rem;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    border-color: $primary;
+    color: $primary;
   }
 }
 

@@ -1,0 +1,42 @@
+---
+title: "Edric (Ed) Tam"
+pagetitle: "About"
+about:
+  template: trestles
+  image: https://edrictam.com/picture.jpeg
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: house
+      text: Website
+      href: https://edrictam.com
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=8SeuD9QAAAAJ&hl=en
+    - icon: github
+      text: GitHub
+      href: https://github.com/edrictam
+    - icon: twitter-x
+      text: X
+      href: https://x.com/edric_tam
+    - icon: envelope
+      text: Email
+      href: mailto:edrictam@stanford.edu
+---
+
+Hi, I'm Edric (Ed) Tam. I'm a postdoctoral fellow at Stanford University working with Barbara Engelhardt at the intersection of statistics and AI, with a strong focus on applications in business, economics and biomedicine. My postdoctoral research is supported by a Warren Alpert Fellowship and a Croucher Postdoctoral Fellowship.
+
+I received my PhD in Statistical Science from Duke University, where I worked with David Dunson, and I also hold degrees in computer science and biomedical engineering from Chicago, Yale and Johns Hopkins. Along the way, I've done research and engineering stints at Google, Meta, Amazon and Apple AIML.
+
+*Posterior Musings* is where I write research notes and expository pieces on statistics, AI and all kinds of other technical topics.
+
+## Research interests
+
+- Bayesian statistics, probabilistic machine learning, spectral methods
+- Sampling, Markov chain Monte Carlo, generative modeling, synthetic data
+- Deep learning, artificial intelligence, embeddings
+- Applications in biology, medicine, business and economics
+
+## Outside of research
+
+I enjoy basketball, hiking, rowing and fencing (foil), reading Kung-Fu novels, writing mobile apps, and eating very spicy things!

@@ -3,7 +3,10 @@ project:
 
 website:
   title: "Posterior Musings"
-  navbar: true
+  navbar:
+    right:
+      - text: About
+        href: about.qmd
   page-footer:
     center: "© 2026 Edric Tam"
 
